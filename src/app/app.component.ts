@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular20220321';
+  compteur = 0;
+
+  incrementCompteur() {
+    this.compteur++;
+  }
 }
